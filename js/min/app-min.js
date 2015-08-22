@@ -1,0 +1,1 @@
+$(document).foundation({orbit:{resume_on_mouseout:!0,navigation_arrows:!1,slide_number:!1}});

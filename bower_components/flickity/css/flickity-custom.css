@@ -1,0 +1,122 @@
+/* was .2rem */
+/*-----------------------------------------------------------GALLERY*/
+.gallery {
+  background: black; }
+
+.gallery-cell {
+  width: 80%;
+  height: 90vh;
+  /* flex-box, center image in cell */
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.gallery-cell img {
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+  /* dim unselected */
+  opacity: 0.7;
+  -webkit-transform: scale(0.8);
+  -ms-transform: scale(0.8);
+      transform: scale(0.8);
+  -webkit-filter: blur(5px);
+  filter: blur(5px);
+  -webkit-transition: opacity 0.3s, -webkit-transform 0.3s, -webkit-transform 0.3s, -webkit-filter 0.3s, filter 0.3s;
+  transition: opacity 0.3s, transform 0.3s, filter 0.3s; }
+
+/* brighten selected image */
+.gallery-cell.is-selected img {
+  opacity: 1;
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+      transform: scale(1);
+  -webkit-filter: none;
+  filter: none; }
+
+/*-----------------------------------------------------------PROJECT CAPTION*/
+.project-caption {
+  max-height: 10vh; }
+  .project-caption div {
+    min-height: 10vh;
+    white-space: nowrap; }
+    .project-caption div:last-of-type {
+      border-left: #bbb dotted 1px; }
+    .project-caption div h4 {
+      margin: 0;
+      padding-top: 1.5vh;
+      font-size: 2.1vh; }
+    .project-caption div a {
+      font-size: 2.1vh;
+      padding-top: -100px; }
+    .project-caption div i {
+      color: #b04628;
+      padding-right: 1vh; }
+    .project-caption div p {
+      padding-top: 1.5vh;
+      font-size: 2.1vh;
+      margin: 0; }
+
+/*-----------------------------------------------------------IMAGE POSITION*/
+/* position dots up a bit */
+.flickity-page-dots {
+  bottom: 15px; }
+
+/* dots are lines */
+.flickity-page-dots .dot {
+  height: 4px;
+  width: 40px;
+  margin: 0;
+  border-radius: 0;
+  background: #b04628; }
+
+/*-----------------------------------------------------------BUTTONS*/
+/* buttons, no circle */
+.flickity-prev-next-button {
+  width: 60px;
+  height: 60px;
+  background: transparent;
+  opacity: 0.6;
+  transition: opacity 0.3s;
+  -webkit-transition: opacity 0.3s; }
+
+.flickity-prev-next-button:hover {
+  background: transparent;
+  opacity: 1; }
+
+/* arrow color */
+.flickity-prev-next-button .arrow {
+  fill: white; }
+
+.flickity-prev-next-button.no-svg {
+  color: white; }
+
+/* closer to edge */
+.flickity-prev-next-button.previous {
+  left: 0; }
+
+.flickity-prev-next-button.next {
+  right: 0; }
+
+/* hide disabled button */
+.flickity-prev-next-button:disabled {
+  display: none; }
+
+/*====================================================
+						MAIN MEDIA QUERIES
+====================================================*/
+@media screen and (min-width: 960px) {
+  .gallery-cell {
+    width: 70%; }
+
+  body {
+    font-size: 1.2em; } }

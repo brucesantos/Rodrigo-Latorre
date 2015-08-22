@@ -1,0 +1,222 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+    <title>Rodrigo Latorre</title>
+    <link rel="stylesheet" href="css/animate-bouncy.css" />
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+    <link rel="stylesheet" href="css/app.css" />
+    <!-- FONTS -->
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:400italic,400,700' rel='stylesheet' type='text/css'>
+    <!-- FONTASTIC.ME ICONS -->
+    <link href="https://fontastic.s3.amazonaws.com/LXzE8dvg8KpZ47ug2poDSS/icons.css" rel="stylesheet">
+    <!-- BOWER COMPONENTS -->
+    <script src="bower_components/modernizr/modernizr.js"></script>
+    <!-- INCLUDES GOOGLE MAPS -->
+    <script src="https://maps.googleapis.com/maps/api/js"></script>
+    <script src="js/map.js"></script>
+    <!-- FAVICON -->
+    <link rel="icon" type="image/png" href="img/favicon.png">
+  </head>
+
+  <body>
+    <!-- =================================================================
+    ********** CAPA **********
+    ================================================================= -->
+    <div class="capa">
+      <img class="logo animated flipInX" src="img/logo.svg" alt="logo">
+      <img class="animated infinite bounce-down downArrow" src="img/arrow-down.svg" alt="seta para baixo">
+    </div>
+    
+
+    <div data-magellan-expedition="fixed">
+      <dl class="sub-nav">
+        <dd data-magellan-arrival="sobre"><a href="#sobre">Sobre</a></dd>
+        <dd data-magellan-arrival="servicos"><a href="#servicos">Serviços</a></dd>
+        <dd data-magellan-arrival="portfolio"><a href="#portfolio">Projetos</a></dd>
+        <dd data-magellan-arrival="depoimentos"><a href="#depoimentos">Depoimentos</a></dd>
+        <dd data-magellan-arrival="contato"><a href="#contato">Contato</a></dd>
+      </dl>
+    </div>
+
+    <!-- =================================================================
+    ********** SOBRE **********
+    ================================================================= -->
+    <div class="row" id="sobre" data-magellan-destination="sobre">
+      <div class="large-5 medium-6 columns">
+        <h2>Rodrigo Latorre</h2>
+        <h5 class="subheader">Arquiteto e Urbanista</h5>
+        <p>
+          Nascido em 1982 na cidade de Sorocaba, graduou-se em Arquitetura pela Pontifícia Universidade Católica de Campinas em 2006. Estagiou de 1999 à 2000 no escritório de Marcelo Sodré Arquitetura e Urbanismo, de onde saiu para montar seu próprio escritório em 2007. <br>
+          Em pouco tempo Rodrigo conquistou o mercado do interior do estado de São Paulo e Com mais de 200 projetos, adquiriu maturidade e um traço marcante na arquitetura contemporânea.
+        </p>
+        <blockquote>
+          Eu prefiro desenhar do que falar. O desenho é mais rápido e deixa menos espaço para mentiras.
+          <cite>Le Corbusier</cite>
+        </blockquote>
+      </div>
+      <div class="medium-6 columns">
+        <img src="img/sobre.jpg" alt="imagem do perfil da empresa ou do dono">
+      </div>
+    </div>
+
+    <!-- =================================================================
+    ********** SERVIÇOS **********
+    ================================================================= -->
+    <div id="servicos" data-magellan-destination="servicos">
+      <div class="row">
+        <ul class="small-block-grid-3">
+          <li>
+            <i class="conq-home"></i>
+            <h5>Projetos Residenciais</h5>
+            <p class="hide-for-small-only">Da concepção ao projeto executivo</p>
+          </li>
+          <li>
+            <i class="conq-factory"></i>
+            <h5>Projetos Comerciais e Industriais</h5>
+            <p class="hide-for-small-only">Linhas que levam o conceito da sua empresa</p>
+          </li>
+          <li>
+            <i class="conq-lamp"></i>
+            <h5>Interiores</h5>
+            <p class="hide-for-small-only">Combinando o bom gosto com o prazer de viver</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- =================================================================
+    ********** PORTFOLIO **********
+    ================================================================= -->
+    <div id="portfolio" class="row" data-magellan-destination="portfolio">
+      <div class="controls">
+        <!-- <label>Filter:</label> -->
+        <button class="filter radius" data-filter="all">All</button>
+        <button class="filter radius" data-filter=".category-1">Residencial</button>
+        <button class="filter radius" data-filter=".category-2">Interiores</button>
+        <button class="filter radius" data-filter=".category-3">Comercial</button>
+        <!-- <label>Sort:</label>
+        <button class="sort" data-sort="myorder:asc">Asc</button>
+        <button class="sort" data-sort="myorder:desc">Desc</button> -->
+      </div>
+      <div id="Container" class="container">
+        <a href="01-casa-re.html"><div class="mix category-1 category-2" id="img_one" data-myorder="1"></div></a>
+        <a href="02-casa-yb1.html"><div class="mix category-1 category-2" id="img_two" data-myorder="2"></div></a>
+        <a href="03-casa-yb2.html"><div class="mix category-1" id="img_three" data-myorder="3"></div></a>
+        <a href="04-casa-FJ.html"><div class="mix category-1" id="img_four" data-myorder="4"></div></a>
+        <a href="05-casa-ES.html"><div class="mix category-1" id="img_five" data-myorder="5"></div></a>
+        <a href="06-casa-MS.html"><div class="mix category-1" id="img_six" data-myorder="6"></div></a>
+        <a href="07-casa-PCL.html"><div class="mix category-1" id="img_seven" data-myorder="7"></div></a>
+        <a href="08-biolabor.html"><div class="mix category-3" id="img_eight" data-myorder="8"></div></a>
+        <a href="09-omni.html"><div class="mix category-3" id="img_nine" data-myorder="9"></div></a>
+        <a href="10-casa-PEC.html"><div class="mix category-1" id="img_ten" data-myorder="10"></div></a>
+        <a href="11-casa-DM.html"><div class="mix category-1" id="img_eleven" data-myorder="11"></div></a>
+        <a href="12-casa-JM.html"><div class="mix category-1" id="img_twelve" data-myorder="12"></div></a>
+        <a href="13-casa-PF.html"><div class="mix category-1" id="img_thirteen" data-myorder="13"></div></a>
+        <a href="14-casa-RR.html"><div class="mix category-1 category-2" id="img_fourteen" data-myorder="14"></div></a>
+        <a href="15-casa-AM.html"><div class="mix category-1" id="img_fifthteen" data-myorder="15"></div></a>
+        <a href="16-casa-MF.html"><div class="mix category-1" id="img_sixteen" data-myorder="16"></div></a>
+        <a href="17-casa-EC.html"><div class="mix category-1" id="img_seventeen" data-myorder="17"></div></a>
+        <a href="18-casa-JC.html"><div class="mix category-1" id="img_eighteen" data-myorder="18"></div></a>
+        <a href="19-casa-SV.html"><div class="mix category-1 category-2" id="img_nineteen" data-myorder="19"></div></a>
+        
+        <div class="gap"></div>
+        <div class="gap"></div>
+        <div class="gap"></div>
+      </div>
+    </div>
+
+    <!-- =================================================================
+    ********** DEPOIMENTOS **********
+    ================================================================= -->
+    <div id="depoimentos" data-magellan-destination="depoimentos">
+        <ul class="sliderDepoimentos" data-orbit data-options="resume_on_mouseout:true; navigation_arrows:false; slide_number: false;">
+          <li class="depContent" data-orbit-slide="headline-1">
+            <div class="row">
+              <div class="small-12 medium-5 columns">
+                <div id="cliente_01" class="imgCliente"></div>
+                <h4>Marcos Silverio</h4>
+                <h5 class="subheader">Construtor</h5>
+              </div>
+              <p class="small-12 medium-7 columns">
+                Como construtor já vi e convivi com diversos projetos, posso dizer que poucos são feitos com tanto esmero como os do Rodrigo. Sobra talento. Por isso, não penso duas vezes antes de repetir, escolho sempre o Rodrigo quando quero apostar em algo diferenciado.
+              </p>
+            </div>
+          </li>
+          <li class="depContent" data-orbit-slide="headline-2">
+            <div class="row">
+              <div class="small-12 medium-5 columns">
+                <div id="cliente_02" class="imgCliente"></div>
+                <h4>Gustavo Silveira</h4>
+                <h5 class="subheader">Empresário</h5>
+              </div>
+              <p class="small-12 medium-7 columns">
+                Conheço o Rodrigo a muito tempo e desde pequeno ele já desenhava casas e prédios. É um talento nato. Estilo e criatividade fazem parte do seu cotidiano. Com certeza um dos melhores arquitetos do momento além de ser uma pessoa do bem.
+              </p>
+            </div>
+          </li>
+          <li class="depContent" data-orbit-slide="headline-3">
+            <div class="row">
+              <div class="small-12 medium-5 columns">
+                <div id="cliente_03" class="imgCliente"></div>
+                <h4>Marta Lucco</h4>
+                <h5 class="subheader">Cardiologista</h5>
+              </div>
+              <p class="small-12 medium-7 columns">
+                Quando pensamos em construir nossa primeira casa, eu e meu marido marcávamos as casas que mais gostávamos. Fomos atrás dos arquitetos e descobrimos que várias delas eram do Rodrigo… <span>casas modernas e diferentes</span> sem serem escalafobéticas. Ele tem muito bom gosto.
+              </p>
+            </div>
+          </li>
+        </ul>
+    </div>
+
+    <!-- =================================================================
+    ********** CLIENTES **********
+    ================================================================= -->
+    
+
+    <!-- =================================================================
+    ********** CONTATO **********
+    ================================================================= -->
+    <div id="contato" data-magellan-destination="contato">
+      <div id="map-canvas" class="small-12 large-8 columns" style="height:400px">
+      </div>
+      <div id="contactInfo" class="small-12 large-4 columns">
+        <h5 class="me-icon-phone"> Telefones</h5>
+        <p>
+          (15) 3234-8367 <br>
+          (15) XXXX-XXXX
+        </p>
+        <h5 class="me-icon-location"> Endereço</h5>
+        <p>
+          Av. Eng. Carlos Reinaldo Mendes, 3200<br> 
+          18013-280 | Sala 21<br>
+          Sorocaba/SP
+        </p>
+        <h5 class="me-icon-paperplane"> Email</h5>
+        <p>
+          <a href="mailto:contato@rodrigolatorre.com?Subject=Contato%20pelo%20site" target="_top">contato@rodrigolatorre.com</a>
+        </p>
+      </div>
+    </div>
+
+    <!-- =================================================================
+    ********** SCRIPTS **********
+    ================================================================= -->
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/foundation/js/foundation.min.js"></script>
+    <script src="bower_components/foundation/js/foundation/foundation.orbit.js"></script>
+    <script src="bower_components/foundation/js/foundation/foundation.magellan.js"></script>
+    <script src="bower_components/mixitup2/build/jquery.mixitup.min.js"></script>
+    <script src="js/app.js"></script>
+    <!-- inicializa o mixItUp -->
+    <script type="text/javascript">
+      $(function(){
+        $('#Container').mixItUp();
+      });
+    </script>
+
+  </body>
+</html>

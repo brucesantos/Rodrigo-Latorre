@@ -1,0 +1,8 @@
+{
+  "name": "foundation-libsass-template",
+  "dependencies": {
+    "foundation": "zurb/bower-foundation",
+    "mixitup2": "~2.1.8",
+    "flickity": "~1.0.2"
+  }
+}
