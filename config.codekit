@@ -173,6 +173,24 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/20-casa-rg.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/20-casa-rg.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/21-casa-nb.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/21-casa-nb.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/bower.json": {
 		"fileType": 524288,
 		"ignore": 1,
@@ -5630,6 +5648,50 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/20-casa-rg\/casa-rg-01.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 330680,
+		"inputAbbreviatedPath": "\/img\/20-casa-rg\/casa-rg-01.jpg",
+		"outputAbbreviatedPath": "\/img\/20-casa-rg\/casa-rg-01.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/20-casa-rg\/casa-rg-02.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 551817,
+		"inputAbbreviatedPath": "\/img\/20-casa-rg\/casa-rg-02.jpg",
+		"outputAbbreviatedPath": "\/img\/20-casa-rg\/casa-rg-02.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/21-casa-nb\/21-casa-nb-01.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.80677e+06,
+		"inputAbbreviatedPath": "\/img\/21-casa-nb\/21-casa-nb-01.jpg",
+		"outputAbbreviatedPath": "\/img\/21-casa-nb\/21-casa-nb-01.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/21-casa-nb\/21-casa-nb-02.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2.94506e+06,
+		"inputAbbreviatedPath": "\/img\/21-casa-nb\/21-casa-nb-02.jpg",
+		"outputAbbreviatedPath": "\/img\/21-casa-nb\/21-casa-nb-02.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/backup-port\/eight.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -7089,6 +7151,28 @@
 		"initialSize": 80406,
 		"inputAbbreviatedPath": "\/img\/portfolio\/_twelve.jpg",
 		"outputAbbreviatedPath": "\/img\/portfolio\/_twelve.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/portfolio\/_twenty.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 551817,
+		"inputAbbreviatedPath": "\/img\/portfolio\/_twenty.jpg",
+		"outputAbbreviatedPath": "\/img\/portfolio\/_twenty.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/portfolio\/_twentyone.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.80677e+06,
+		"inputAbbreviatedPath": "\/img\/portfolio\/_twentyone.jpg",
+		"outputAbbreviatedPath": "\/img\/portfolio\/_twentyone.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
