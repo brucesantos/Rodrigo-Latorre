@@ -4513,7 +4513,7 @@ table {
   cursor: help;
   font-weight: 700; }
   .has-tip:hover, .has-tip:focus {
-    border-bottom: dotted 1px #4f1f12;
+    border-bottom: dotted 1px #4f2012;
     color: #b04628; }
   .has-tip.tip-left, .has-tip.tip-right {
     float: none !important; }
@@ -4551,7 +4551,7 @@ table {
     .tooltip.round > .nub {
       left: 2rem; }
   .tooltip.opened {
-    border-bottom: dotted 1px #4f1f12 !important;
+    border-bottom: dotted 1px #4f2012 !important;
     color: #b04628 !important; }
 
 .tap-to-close {
@@ -6597,18 +6597,18 @@ a {
 #contactInfo {
   padding: 3em;
   height: 400px;
-  background: #86351f no-repeat center center;
+  background: #1a1a1a no-repeat center center;
   background-size: cover; }
   #contactInfo h1, #contactInfo h2, #contactInfo h3, #contactInfo h4, #contactInfo h5, #contactInfo h6 {
-    color: #FFFFFF; }
+    color: #666666; }
   #contactInfo p {
     color: #FFFFFF; }
   #contactInfo a {
-    color: #ce993b;
+    color: #b04628;
     -webkit-transition: all 0.3s;
             transition: all 0.3s; }
     #contactInfo a:hover {
-      color: #e2c38d; }
+      color: #db7d63; }
 
 #map-canvas {
   height: 400px; }
