@@ -6544,6 +6544,14 @@ a {
   background: url("../img/portfolio/_nineteen.jpg") center center;
   background-size: cover; }
 
+#img_twenty {
+  background: url("../img/portfolio/_twenty.jpg") center center;
+  background-size: cover; }
+
+#img_twentyone {
+  background: url("../img/portfolio/_twentyone.jpg") center center;
+  background-size: cover; }
+
 #depoimentos {
   background: #333 url("../img/servicos-bg.jpg") center center;
   background-size: cover; }
