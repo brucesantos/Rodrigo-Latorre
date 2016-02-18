@@ -30,8 +30,7 @@
   display: none;
   border-radius: 3px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-  -webkit-transition: filter 0.3s, -webkit-filter 0.3s, box-shadow 0.3s;
-          transition: filter 0.3s, -webkit-filter 0.3s, box-shadow 0.3s; }
+  transition: filter 0.3s, -webkit-filter 0.3s, box-shadow 0.3s; }
   .container .mix:before {
     content: '';
     display: inline-block;
@@ -1229,7 +1228,7 @@ select {
   padding: 0.875rem 1.5rem 0.875rem 0.875rem;
   position: relative;
   -webkit-transition: opacity 300ms ease-out;
-          transition: opacity 300ms ease-out;
+  transition: opacity 300ms ease-out;
   background-color: #b04628;
   border-color: #d05431;
   color: #FFFFFF; }
@@ -1650,7 +1649,7 @@ button, .button {
   border-color: #d3603f;
   color: #FFFFFF;
   -webkit-transition: background-color 300ms ease-out;
-          transition: background-color 300ms ease-out; }
+  transition: background-color 300ms ease-out; }
   button:hover, button:focus, .button:hover, .button:focus {
     background-color: #d3603f; }
   button:hover, button:focus, .button:hover, .button:focus {
@@ -2233,7 +2232,6 @@ button::-moz-focus-inner {
     left: 50%;
     top: 50%;
     -webkit-transform: translateY(-50%) translateX(-50%);
-    -ms-transform: translateY(-50%) translateX(-50%);
     transform: translateY(-50%) translateX(-50%);
     max-height: 100%;
     max-width: 100%; }
@@ -3501,11 +3499,9 @@ kbd {
 @keyframes rotate {
   from {
     -webkit-transform: rotate(0deg);
-    -ms-transform: rotate(0deg);
     transform: rotate(0deg); }
   to {
     -webkit-transform: rotate(360deg);
-    -ms-transform: rotate(360deg);
     transform: rotate(360deg); } }
 /* Orbit Graceful Loading */
 .slideshow-wrapper {
@@ -3558,7 +3554,6 @@ kbd {
     padding: 0;
     position: relative;
     -webkit-transform: translateZ(0);
-    -ms-transform: translateZ(0);
     transform: translateZ(0); }
     .orbit-container .orbit-slides-container img {
       display: block;
@@ -3737,7 +3732,7 @@ ul.pagination {
     ul.pagination li a, ul.pagination li button {
       border-radius: 4px;
       -webkit-transition: background-color 300ms ease-out;
-              transition: background-color 300ms ease-out;
+      transition: background-color 300ms ease-out;
       background: none;
       color: #999999;
       display: block;
@@ -4282,7 +4277,7 @@ ul.pagination {
     width: 4rem;
     height: 2rem;
     -webkit-transition: left 0.15s ease-out;
-            transition: left 0.15s ease-out; }
+    transition: left 0.15s ease-out; }
   .switch input {
     left: 10px;
     opacity: 0;
@@ -4304,7 +4299,6 @@ ul.pagination {
     -webkit-transition: left 0.15s ease-out;
     transition: left 0.15s ease-out;
     -webkit-transform: translate3d(0, 0, 0);
-    -ms-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0); }
   .switch input:checked + label {
     background: #b04628; }
@@ -4500,7 +4494,7 @@ table {
   line-height: 0;
   max-width: 100%;
   -webkit-transition: all 200ms ease-out;
-          transition: all 200ms ease-out; }
+  transition: all 200ms ease-out; }
   .th:hover, .th:focus {
     box-shadow: 0 0 6px 1px rgba(176, 70, 40, 0.5); }
   .th.radius {
@@ -4716,7 +4710,7 @@ meta.foundation-mq-topbar {
   position: relative;
   width: auto;
   -webkit-transition: left 300ms ease-out;
-          transition: left 300ms ease-out; }
+  transition: left 300ms ease-out; }
   .top-bar-section ul {
     display: block;
     font-size: 16px;
@@ -4967,7 +4961,7 @@ meta.foundation-mq-topbar {
 
   .top-bar-section {
     -webkit-transition: none 0 0;
-            transition: none 0 0;
+    transition: none 0 0;
     left: 0 !important; }
     .top-bar-section ul {
       display: inline;
@@ -5504,7 +5498,9 @@ blockquote p {
   position: relative;
   width: 100%;
   -webkit-transition: -webkit-transform 500ms ease;
-  transition: transform 500ms ease; }
+  transition: -webkit-transform 500ms ease;
+  transition: transform 500ms ease;
+  transition: transform 500ms ease, -webkit-transform 500ms ease; }
   .inner-wrap:before, .inner-wrap:after {
     content: " ";
     display: table; }
@@ -5597,12 +5593,12 @@ blockquote p {
   position: absolute;
   top: 0;
   -webkit-transition: -webkit-transform 500ms ease 0s;
-          transition: transform 500ms ease 0s;
+  transition: -webkit-transform 500ms ease 0s;
+  transition: transform 500ms ease 0s;
+  transition: transform 500ms ease 0s, -webkit-transform 500ms ease 0s;
   width: 15.625rem;
   z-index: 1001;
   -webkit-transform: translate3d(-100%, 0, 0);
-  -ms-transform: translate(-100%, 0);
-  -ms-transform: translate3d(-100%, 0, 0);
   transform: translate3d(-100%, 0, 0);
   left: 0; }
   .left-off-canvas-menu * {
@@ -5620,12 +5616,12 @@ blockquote p {
   position: absolute;
   top: 0;
   -webkit-transition: -webkit-transform 500ms ease 0s;
-          transition: transform 500ms ease 0s;
+  transition: -webkit-transform 500ms ease 0s;
+  transition: transform 500ms ease 0s;
+  transition: transform 500ms ease 0s, -webkit-transform 500ms ease 0s;
   width: 15.625rem;
   z-index: 1001;
   -webkit-transform: translate3d(100%, 0, 0);
-  -ms-transform: translate(100%, 0);
-  -ms-transform: translate3d(100%, 0, 0);
   transform: translate3d(100%, 0, 0);
   right: 0; }
   .right-off-canvas-menu * {
@@ -5652,7 +5648,7 @@ ul.off-canvas-list {
     display: block;
     padding: 0.6666666667rem;
     -webkit-transition: background 300ms ease;
-            transition: background 300ms ease; }
+    transition: background 300ms ease; }
     ul.off-canvas-list li a:hover {
       background: #242424; }
     ul.off-canvas-list li a:active {
@@ -5660,15 +5656,13 @@ ul.off-canvas-list {
 
 .move-right > .inner-wrap {
   -webkit-transform: translate3d(15.625rem, 0, 0);
-  -ms-transform: translate(15.625rem, 0);
-  -ms-transform: translate3d(15.625rem, 0, 0);
   transform: translate3d(15.625rem, 0, 0); }
 .move-right .exit-off-canvas {
   -webkit-backface-visibility: hidden;
   box-shadow: -4px 0 4px rgba(0, 0, 0, 0.5), 4px 0 4px rgba(0, 0, 0, 0.5);
   cursor: pointer;
   -webkit-transition: background 300ms ease;
-          transition: background 300ms ease;
+  transition: background 300ms ease;
   -webkit-tap-highlight-color: transparent;
   background: rgba(255, 255, 255, 0.2);
   bottom: 0;
@@ -5684,15 +5678,13 @@ ul.off-canvas-list {
 
 .move-left > .inner-wrap {
   -webkit-transform: translate3d(-15.625rem, 0, 0);
-  -ms-transform: translate(-15.625rem, 0);
-  -ms-transform: translate3d(-15.625rem, 0, 0);
   transform: translate3d(-15.625rem, 0, 0); }
 .move-left .exit-off-canvas {
   -webkit-backface-visibility: hidden;
   box-shadow: -4px 0 4px rgba(0, 0, 0, 0.5), 4px 0 4px rgba(0, 0, 0, 0.5);
   cursor: pointer;
   -webkit-transition: background 300ms ease;
-          transition: background 300ms ease;
+  transition: background 300ms ease;
   -webkit-tap-highlight-color: transparent;
   background: rgba(255, 255, 255, 0.2);
   bottom: 0;
@@ -5707,7 +5699,6 @@ ul.off-canvas-list {
       background: rgba(255, 255, 255, 0.05); } }
 
 .offcanvas-overlap .left-off-canvas-menu, .offcanvas-overlap .right-off-canvas-menu {
-  -ms-transform: none;
   -webkit-transform: none;
   transform: none;
   z-index: 1003; }
@@ -5716,7 +5707,7 @@ ul.off-canvas-list {
   box-shadow: -4px 0 4px rgba(0, 0, 0, 0.5), 4px 0 4px rgba(0, 0, 0, 0.5);
   cursor: pointer;
   -webkit-transition: background 300ms ease;
-          transition: background 300ms ease;
+  transition: background 300ms ease;
   -webkit-tap-highlight-color: transparent;
   background: rgba(255, 255, 255, 0.2);
   bottom: 0;
@@ -5731,7 +5722,6 @@ ul.off-canvas-list {
       background: rgba(255, 255, 255, 0.05); } }
 
 .offcanvas-overlap-left .right-off-canvas-menu {
-  -ms-transform: none;
   -webkit-transform: none;
   transform: none;
   z-index: 1003; }
@@ -5740,7 +5730,7 @@ ul.off-canvas-list {
   box-shadow: -4px 0 4px rgba(0, 0, 0, 0.5), 4px 0 4px rgba(0, 0, 0, 0.5);
   cursor: pointer;
   -webkit-transition: background 300ms ease;
-          transition: background 300ms ease;
+  transition: background 300ms ease;
   -webkit-tap-highlight-color: transparent;
   background: rgba(255, 255, 255, 0.2);
   bottom: 0;
@@ -5755,7 +5745,6 @@ ul.off-canvas-list {
       background: rgba(255, 255, 255, 0.05); } }
 
 .offcanvas-overlap-right .left-off-canvas-menu {
-  -ms-transform: none;
   -webkit-transform: none;
   transform: none;
   z-index: 1003; }
@@ -5764,7 +5753,7 @@ ul.off-canvas-list {
   box-shadow: -4px 0 4px rgba(0, 0, 0, 0.5), 4px 0 4px rgba(0, 0, 0, 0.5);
   cursor: pointer;
   -webkit-transition: background 300ms ease;
-          transition: background 300ms ease;
+  transition: background 300ms ease;
   -webkit-tap-highlight-color: transparent;
   background: rgba(255, 255, 255, 0.2);
   bottom: 0;
@@ -5801,12 +5790,12 @@ ul.off-canvas-list {
   width: 15.625rem;
   z-index: 1002;
   -webkit-transform: translate3d(-100%, 0, 0);
-  -ms-transform: translate(-100%, 0);
-  -ms-transform: translate3d(-100%, 0, 0);
   transform: translate3d(-100%, 0, 0);
   left: 0;
   -webkit-transition: -webkit-transform 500ms ease;
-  transition: transform 500ms ease; }
+  transition: -webkit-transform 500ms ease;
+  transition: transform 500ms ease;
+  transition: transform 500ms ease, -webkit-transform 500ms ease; }
   .left-submenu * {
     -webkit-backface-visibility: hidden; }
   .left-submenu .back > a {
@@ -5828,8 +5817,6 @@ ul.off-canvas-list {
       display: inline; }
   .left-submenu.move-right, .left-submenu.offcanvas-overlap-right, .left-submenu.offcanvas-overlap {
     -webkit-transform: translate3d(0%, 0, 0);
-    -ms-transform: translate(0%, 0);
-    -ms-transform: translate3d(0%, 0, 0);
     transform: translate3d(0%, 0, 0); }
 
 .right-submenu {
@@ -5846,12 +5833,12 @@ ul.off-canvas-list {
   width: 15.625rem;
   z-index: 1002;
   -webkit-transform: translate3d(100%, 0, 0);
-  -ms-transform: translate(100%, 0);
-  -ms-transform: translate3d(100%, 0, 0);
   transform: translate3d(100%, 0, 0);
   right: 0;
   -webkit-transition: -webkit-transform 500ms ease;
-  transition: transform 500ms ease; }
+  transition: -webkit-transform 500ms ease;
+  transition: transform 500ms ease;
+  transition: transform 500ms ease, -webkit-transform 500ms ease; }
   .right-submenu * {
     -webkit-backface-visibility: hidden; }
   .right-submenu .back > a {
@@ -5873,8 +5860,6 @@ ul.off-canvas-list {
       display: inline; }
   .right-submenu.move-left, .right-submenu.offcanvas-overlap-left, .right-submenu.offcanvas-overlap {
     -webkit-transform: translate3d(0%, 0, 0);
-    -ms-transform: translate(0%, 0);
-    -ms-transform: translate3d(0%, 0, 0);
     transform: translate3d(0%, 0, 0); }
 
 .left-off-canvas-menu ul.off-canvas-list li.has-submenu > a:after {
@@ -6354,7 +6339,7 @@ th.hide-for-touch {
   left: 0;
   background: rgba(0, 0, 0, 0.9);
   -webkit-transition: all .5s ease;
-          transition: all .5s ease; }
+  transition: all .5s ease; }
   .lightbox img {
     /** Pad the lightbox image */
     max-width: 95vw;
@@ -6379,7 +6364,7 @@ blockquote {
 a {
   color: #d25b39;
   -webkit-transition: all 0.3s;
-          transition: all 0.3s; }
+  transition: all 0.3s; }
   a:hover {
     color: #db7d63; }
 
@@ -6552,6 +6537,10 @@ a {
   background: url("../img/portfolio/_twentyone.jpg") center center;
   background-size: cover; }
 
+#img_twentytwo {
+  background: url("../img/portfolio/_twentytwo.jpg") center center;
+  background-size: cover; }
+
 #depoimentos {
   background: #333 url("../img/servicos-bg.jpg") center center;
   background-size: cover; }
@@ -6614,7 +6603,7 @@ a {
   #contactInfo a {
     color: #b04628;
     -webkit-transition: all 0.3s;
-            transition: all 0.3s; }
+    transition: all 0.3s; }
     #contactInfo a:hover {
       color: #db7d63; }
 
