@@ -224,7 +224,7 @@ a {
 	}
 } // style the mixItUp filter buttons
 
-@each $img in _one, _two, _three, _four, _five, _six, _seven, _eight, _nine, _ten, _eleven, _twelve, _thirteen, _fourteen, _fifthteen, _sixteen, _seventeen, _eighteen, _nineteen, _twenty, _twentyone {
+@each $img in _one, _two, _three, _four, _five, _six, _seven, _eight, _nine, _ten, _eleven, _twelve, _thirteen, _fourteen, _fifthteen, _sixteen, _seventeen, _eighteen, _nineteen, _twenty, _twentyone, _twentytwo {
   #img#{$img} {
     background: url('../img/portfolio/#{$img}.jpg') center center;
     background-size: cover;

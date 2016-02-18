@@ -191,6 +191,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/22-casa-jrs.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/22-casa-jrs.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/bower.json": {
 		"fileType": 524288,
 		"ignore": 1,
@@ -5531,9 +5540,42 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 370564,
+		"initialSize": 3.8287e+06,
 		"inputAbbreviatedPath": "\/img\/16-casa-MF\/casa-mf-3.jpg",
 		"outputAbbreviatedPath": "\/img\/16-casa-MF\/casa-mf-3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/16-casa-MF\/casa-mf-4.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.51628e+06,
+		"inputAbbreviatedPath": "\/img\/16-casa-MF\/casa-mf-4.jpg",
+		"outputAbbreviatedPath": "\/img\/16-casa-MF\/casa-mf-4.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/16-casa-MF\/casa-mf-5.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2.82691e+06,
+		"inputAbbreviatedPath": "\/img\/16-casa-MF\/casa-mf-5.jpg",
+		"outputAbbreviatedPath": "\/img\/16-casa-MF\/casa-mf-5.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/16-casa-MF\/casa-mf-6.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2.43517e+06,
+		"inputAbbreviatedPath": "\/img\/16-casa-MF\/casa-mf-6.jpg",
+		"outputAbbreviatedPath": "\/img\/16-casa-MF\/casa-mf-6.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -5688,6 +5730,39 @@
 		"initialSize": 2.94506e+06,
 		"inputAbbreviatedPath": "\/img\/21-casa-nb\/21-casa-nb-02.jpg",
 		"outputAbbreviatedPath": "\/img\/21-casa-nb\/21-casa-nb-02.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/22-casa-jrs\/22-casa-jrs-01.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.54517e+06,
+		"inputAbbreviatedPath": "\/img\/22-casa-jrs\/22-casa-jrs-01.png",
+		"outputAbbreviatedPath": "\/img\/22-casa-jrs\/22-casa-jrs-01.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/22-casa-jrs\/22-casa-jrs-02.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.14296e+06,
+		"inputAbbreviatedPath": "\/img\/22-casa-jrs\/22-casa-jrs-02.png",
+		"outputAbbreviatedPath": "\/img\/22-casa-jrs\/22-casa-jrs-02.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/22-casa-jrs\/22-casa-jrs-03.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2.20785e+06,
+		"inputAbbreviatedPath": "\/img\/22-casa-jrs\/22-casa-jrs-03.png",
+		"outputAbbreviatedPath": "\/img\/22-casa-jrs\/22-casa-jrs-03.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -7173,6 +7248,17 @@
 		"initialSize": 1.80677e+06,
 		"inputAbbreviatedPath": "\/img\/portfolio\/_twentyone.jpg",
 		"outputAbbreviatedPath": "\/img\/portfolio\/_twentyone.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/portfolio\/_twentytwo.jpg": {
+		"fileType": 16384,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 47486,
+		"inputAbbreviatedPath": "\/img\/portfolio\/_twentytwo.jpg",
+		"outputAbbreviatedPath": "\/img\/portfolio\/_twentytwo.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
