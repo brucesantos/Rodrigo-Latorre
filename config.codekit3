@@ -7,7 +7,7 @@
 		"uuidString": "BD9BB7B9-2E2A-492C-B8FE-0AF4E984C120"
 		}
 	],
-"creatorBuild": "25479",
+"creatorBuild": "25504",
 "files": {
 	"\/.bowerrc": {
 		"ft": 8192,
@@ -4737,35 +4737,35 @@
 		"oF": 0,
 		"opt": 0
 		},
-	"\/img\/03-casa-yb2\/casa-yb2-2.JPG": {
+	"\/img\/03-casa-yb2\/casa-yb2-2.jpg": {
 		"ft": 16384,
 		"iS": 1165930,
 		"oA": 0,
-		"oAP": "\/img\/03-casa-yb2\/casa-yb2-2.JPG",
+		"oAP": "\/img\/03-casa-yb2\/casa-yb2-2.jpg",
 		"oF": 0,
 		"opt": 0
 		},
-	"\/img\/03-casa-yb2\/casa-yb2-3.JPG": {
+	"\/img\/03-casa-yb2\/casa-yb2-3.jpg": {
 		"ft": 16384,
 		"iS": 1090910,
 		"oA": 0,
-		"oAP": "\/img\/03-casa-yb2\/casa-yb2-3.JPG",
+		"oAP": "\/img\/03-casa-yb2\/casa-yb2-3.jpg",
 		"oF": 0,
 		"opt": 0
 		},
-	"\/img\/03-casa-yb2\/casa-yb2-4.JPG": {
+	"\/img\/03-casa-yb2\/casa-yb2-4.jpg": {
 		"ft": 16384,
 		"iS": 2385450,
 		"oA": 0,
-		"oAP": "\/img\/03-casa-yb2\/casa-yb2-4.JPG",
+		"oAP": "\/img\/03-casa-yb2\/casa-yb2-4.jpg",
 		"oF": 0,
 		"opt": 0
 		},
-	"\/img\/03-casa-yb2\/casa-yb2-5.JPG": {
+	"\/img\/03-casa-yb2\/casa-yb2-5.jpg": {
 		"ft": 16384,
 		"iS": 3473410,
 		"oA": 0,
-		"oAP": "\/img\/03-casa-yb2\/casa-yb2-5.JPG",
+		"oAP": "\/img\/03-casa-yb2\/casa-yb2-5.jpg",
 		"oF": 0,
 		"opt": 0
 		},
@@ -7402,6 +7402,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"no-await-in-loop": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-bitwise": {
 			"active": 0,
 			"optionString": "{'allow': ['~'], 'int32Hint': true}"
@@ -7941,6 +7945,10 @@
 		"prefer-const": {
 			"active": 0,
 			"optionString": "{'destructuring': 'any', 'ignoreReadBeforeAssign': false}"
+			},
+		"prefer-destructuring": {
+			"active": 0,
+			"optionString": "{'array': true, 'object': true}, {'enforceForRenamedProperties': false}"
 			},
 		"prefer-numeric-literals": {
 			"active": 0,
